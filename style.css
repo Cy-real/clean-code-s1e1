@@ -24,7 +24,7 @@ body {
 }
 .container {
   display: block;
-  width: 400px;
+  width: 500px;
   margin: 0 auto 0;
 }
 .task__info {
@@ -32,10 +32,9 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-/* .task-row-wrapper {
+.new-task__controls{
   display: flex;
 }
-??????? */
 #open-tasks,
 #closed-tasks {
   margin: 0;
@@ -86,6 +85,7 @@ body {
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  flex-grow: 1;
 }
 #new-task__input:focus,
 .task__input:focus {
